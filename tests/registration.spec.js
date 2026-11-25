@@ -4,8 +4,8 @@ import { test, expect } from '@playwright/test';
 test('Restaurant registration with manual OTP', async ({ page }) => {
   test.setTimeout(300000);
 
-  //const registrationUrl = 'https://draft.thaiimperial.com/sign-up';
-  const registrationUrl = 'https://v9-asap-blank-preorder.netlify.app/sign-up';
+  const registrationUrl = 'https://draft.thaiimperial.com/sign-up';
+ // const registrationUrl = 'https://v9-asap-blank-preorder.netlify.app/sign-up';
  
   const tempMailUrl = 'https://temp-mail.org/en/';
 
